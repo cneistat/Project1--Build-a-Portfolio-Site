@@ -1,31 +1,36 @@
 body {
     font-family: Verdana, sans-serif;
-    color: #666666;
+    color: #666;
     line-height: 32px;
     font-size: 16px;
     font-weight: 300;
 }
+
 .row {
     max-width: 1024px;
-}    
+} 
+
 h1 {
     text-align: center;
     font-size: 48px;
     font-weight: normal;
-    color: #666666;
+    color: #666;
     padding: 25px 0 20px 0;
 }
+
 .mug {
-   width: 400px;
-   height: 375px;
+    width: 400px;
+    height: 375px;
 }
+
 h2 {
     margin-left: auto;
     margin-right: auto;
     font-size: 160%;
-    color: #F07C17;
+    color: #f07c17;
     font-weight:bold;
-}
+    }
+
 .box-title {
     padding: 25px 60px 60px 0;
     margin-right: 35px;
@@ -33,20 +38,24 @@ h2 {
     font-size: 24px;
     font-weight: bold;
 }
+
 .box-content {
     margin: 10px 0px 10px 0px;
     padding: 5px 0px 0px 31px;
-    border-width: 1px ;
-    border-style: solid, #ccc;
+    border-width: 1px;
+    border-style: solid;
+    color: #ccc;
 }
+
 .paragraph-title { 
     color: #f07c17; 
     font-size: 24px;
     font-weight: bold;
 }
+
 .mockup-overlay {
     top: 0;
     position: absolute;
     z-index: -1;
     opacity: 0.4;
-    }
+}
